@@ -1,0 +1,10 @@
+select count(*) from student_test_scores; #output 99
+
+insert into student_test_scores 
+(country, first_name, last_name, test_score)
+values
+('Nigeria', 'Qudus', 'Balogun', 70),
+('Nigeria', 'idris', 'Babatunde', 80),
+('Nigeria', 'Sophia', 'Ibrahim', 100);
+
+select count(*) from student_test_scores; #output 102
