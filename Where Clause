@@ -1,0 +1,5 @@
+select * from student_test_scores
+where country = "china";
+
+select * from student_test_scores
+where test_score > "50";
