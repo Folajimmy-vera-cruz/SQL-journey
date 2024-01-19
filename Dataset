@@ -1,10 +1,10 @@
-CREATE TABLE INTERNATIONAL_STUDENT_TEST_SCORES (
+CREATE TABLE student_test_scores (
 	country VARCHAR(50),
 	first_name VARCHAR(50),
 	last_name VARCHAR(50),
 	test_score INT
 );
-INSERT INTO INTERNATIONAL_STUDENT_TEST_SCORES (country, first_name, last_name, test_score)
+INSERT INTO student_test_scores (country, first_name, last_name, test_score)
 VALUES
 ('United States', 'Marshall', 'Bernadot', 54),
 ('Ghana', 'Celinda', 'Malkin', 51),
