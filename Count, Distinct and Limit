@@ -1,0 +1,15 @@
+#COUNT
+select count(*) from student_test_scores;
+
+select count(country) from student_test_scores 
+where country = "india";
+
+select count(country) from student_test_scores 
+where country = "Russia";
+
+#DISTINCT
+select distinct(country) from student_test_scores
+where country = "Russia";
+
+#LIMIT
+select * from student_test_scores limit 5;
