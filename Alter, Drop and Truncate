@@ -1,0 +1,9 @@
+#ALTER 
+alter table student_test_scores 
+add  Grade  varchar(50);
+
+#DROP
+drop table student_test_scores;
+
+#TRUNCATE
+truncate table student_test_scores;
